@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "commune encryption"
+version = "0.1.0"
+description = "Encrpytion algorithm implementation for use on Commune AI"
+authors = ["Richard Porteous <bakobiibizo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+jinja2 = "^3.1.4"
+pytailwindcss = "^0.2.0"
+python-dotenv = "^1.0.1"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
